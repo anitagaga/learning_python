@@ -1,0 +1,35 @@
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1653508894803	geckodriver	INFO	Listening on 127.0.0.1:60061
+1653508894815	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60062" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/qz/dszgvcsd2xzfx6gdgdv5c6gw0000gn/T/rust_mozprofilekunKmB"
+1653508895315	Marionette	INFO	Marionette enabled
+2022-05-25 13:01:36.482 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSButton: 0x12de6a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.482 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSButton: 0x1395a4400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.483 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSButton: 0x1395a8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.484 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSButton: 0x1395abc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.484 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSButton: 0x1395ab000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.485 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1395a5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2022-05-25 13:01:36.486 firefox-bin[29344:7422816] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12be8d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/qz/dszgvcsd2xzfx6gdgdv5c6gw0000gn/T/rust_mozprofilekunKmB/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:60062/devtools/browser/9e2503c3-be45-4c9f-9a85-1d9acfb67524
+1653508897476	Marionette	INFO	Listening on port 60087
+Read port: 60087
+1653508897498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653508902066	Marionette	INFO	Stopped listening on port 60087
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
